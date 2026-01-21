@@ -11,7 +11,7 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={jakub-zerdzicki-heiYgqp0Tsk-unsplash.jpg}
           link="https://github.com/web-dev-vishal/Expense_Tracker"
           h3="Expense_Tracker"
           p="Tracker Your Expense"
