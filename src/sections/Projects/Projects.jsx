@@ -3,6 +3,7 @@ import viberr from '../../assets/viberr.png';
 import freshBurger from '../../assets/fresh-burger.png';
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
+import expenseTracker from '../../assets/jakub-zerdzicki-heiYgqp0Tsk-unsplash.jpg'; // Add this line
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,7 +12,7 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={jakub-zerdzicki-heiYgqp0Tsk-unsplash.jpg}
+          src={expenseTracker} 
           link="https://github.com/web-dev-vishal/Expense_Tracker"
           h3="Expense_Tracker"
           p="Tracker Your Expense"
