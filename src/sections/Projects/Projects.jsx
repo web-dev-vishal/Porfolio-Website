@@ -19,7 +19,7 @@ function Projects() {
         />
         <ProjectCard
           src={src/assets/wp14289995-leetcode-wallpapers.jpg}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/web-dev-vishal/My_Leetcode"
           h3="Leetcode"
           p="Solved your problem"
         />
