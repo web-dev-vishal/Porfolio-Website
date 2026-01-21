@@ -1,9 +1,9 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
+import Leetcode from '../../assets/wp14289995-leetcode-wallpapers.jpg';
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
-import expenseTracker from '../../assets/jakub-zerdzicki-heiYgqp0Tsk-unsplash.jpg'; // Add this line
+import expenseTracker from '../../assets/jakub-zerdzicki-heiYgqp0Tsk-unsplash.jpg'; 
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -18,10 +18,10 @@ function Projects() {
           p="Tracker Your Expense"
         />
         <ProjectCard
-          src={freshBurger}
+          src={src/assets/wp14289995-leetcode-wallpapers.jpg}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          h3="Leetcode"
+          p="Solved your problem"
         />
         <ProjectCard
           src={hipsster}
