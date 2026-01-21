@@ -1,8 +1,7 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import Leetcode from '../../assets/wp14289995-leetcode-wallpapers.jpg';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import Leetcode from '../../assets/wp14289957-leetcode-wallpapers.png';
+import hipsster from '../../assets/adem-ay-Tk9m_HP4rgQ-unsplash.jpg';
+import fitLift from '../../assets/carlos-muza-hpjSkU2UYSU-unsplash.jpg';
 import expenseTracker from '../../assets/jakub-zerdzicki-heiYgqp0Tsk-unsplash.jpg'; 
 import ProjectCard from '../../common/ProjectCard';
 
@@ -18,22 +17,22 @@ function Projects() {
           p="Tracker Your Expense"
         />
         <ProjectCard
-          src={src/assets/wp14289995-leetcode-wallpapers.jpg}
+          src={Leetcode}
           link="https://github.com/web-dev-vishal/My_Leetcode"
           h3="Leetcode"
           p="Solved your problem"
         />
         <ProjectCard
           src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          link="https://github.com/web-dev-vishal/Major_project"
+          h3="Full Stack Social Media App"
+          p="College Major Project"
         />
         <ProjectCard
           src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          link="https://github.com/web-dev-vishal/E_Commerces_API_Node.js"
+          h3="E_Commerce API"
+          p="Online Shopping"
         />
       </div>
     </section>
