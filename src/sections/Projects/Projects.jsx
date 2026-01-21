@@ -13,8 +13,8 @@ function Projects() {
         <ProjectCard
           src={viberr}
           link="https://github.com/web-dev-vishal/Expense_Tracker"
-          h3="Viberr"
-          p="Streaming App"
+          h3="Expense_Tracker"
+          p="Tracker Your Expense"
         />
         <ProjectCard
           src={freshBurger}
