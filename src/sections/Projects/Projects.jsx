@@ -32,7 +32,7 @@ function Projects() {
           src={fitLift}
           link="https://github.com/web-dev-vishal/E_Commerces_API_Node.js"
           h3="E_Commerce API"
-          p="Online Shopping"
+          p="E_Commerce"
         />
       </div>
     </section>
